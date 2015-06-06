@@ -10,10 +10,11 @@
 		69A4BEEE1B227DCF00265451 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4BEED1B227DCF00265451 /* main.m */; };
 		69A4BEF11B227DCF00265451 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4BEF01B227DCF00265451 /* AppDelegate.m */; };
 		69A4BEF41B227DCF00265451 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4BEF31B227DCF00265451 /* ViewController.m */; };
-		69A4BEF71B227DCF00265451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A4BEF51B227DCF00265451 /* Main.storyboard */; };
 		69A4BEF91B227DCF00265451 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A4BEF81B227DCF00265451 /* Images.xcassets */; };
 		69A4BEFC1B227DCF00265451 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A4BEFA1B227DCF00265451 /* LaunchScreen.xib */; };
 		69A4BF081B227DCF00265451 /* DownLoadingImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4BF071B227DCF00265451 /* DownLoadingImagesTests.m */; };
+		69A4BF131B227E7100265451 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4BF121B227E7100265451 /* ImageViewController.m */; };
+		69A4BF161B228FD000265451 /* MainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A4BF141B2286CB00265451 /* MainStoryBoard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +35,14 @@
 		69A4BEF01B227DCF00265451 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		69A4BEF21B227DCF00265451 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		69A4BEF31B227DCF00265451 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		69A4BEF61B227DCF00265451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69A4BEF81B227DCF00265451 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		69A4BEFB1B227DCF00265451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		69A4BF011B227DCF00265451 /* DownLoadingImagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownLoadingImagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A4BF061B227DCF00265451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69A4BF071B227DCF00265451 /* DownLoadingImagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownLoadingImagesTests.m; sourceTree = "<group>"; };
+		69A4BF111B227E7100265451 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		69A4BF121B227E7100265451 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		69A4BF141B2286CB00265451 /* MainStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryBoard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +84,11 @@
 		69A4BEEA1B227DCF00265451 /* DownLoadingImages */ = {
 			isa = PBXGroup;
 			children = (
-				69A4BEEF1B227DCF00265451 /* AppDelegate.h */,
-				69A4BEF01B227DCF00265451 /* AppDelegate.m */,
 				69A4BEF21B227DCF00265451 /* ViewController.h */,
 				69A4BEF31B227DCF00265451 /* ViewController.m */,
-				69A4BEF51B227DCF00265451 /* Main.storyboard */,
+				69A4BF111B227E7100265451 /* ImageViewController.h */,
+				69A4BF121B227E7100265451 /* ImageViewController.m */,
+				69A4BF141B2286CB00265451 /* MainStoryBoard.storyboard */,
 				69A4BEF81B227DCF00265451 /* Images.xcassets */,
 				69A4BEFA1B227DCF00265451 /* LaunchScreen.xib */,
 				69A4BEEB1B227DCF00265451 /* Supporting Files */,
@@ -96,6 +99,8 @@
 		69A4BEEB1B227DCF00265451 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				69A4BEEF1B227DCF00265451 /* AppDelegate.h */,
+				69A4BEF01B227DCF00265451 /* AppDelegate.m */,
 				69A4BEEC1B227DCF00265451 /* Info.plist */,
 				69A4BEED1B227DCF00265451 /* main.m */,
 			);
@@ -199,7 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69A4BEF71B227DCF00265451 /* Main.storyboard in Resources */,
+				69A4BF161B228FD000265451 /* MainStoryBoard.storyboard in Resources */,
 				69A4BEFC1B227DCF00265451 /* LaunchScreen.xib in Resources */,
 				69A4BEF91B227DCF00265451 /* Images.xcassets in Resources */,
 			);
@@ -221,6 +226,7 @@
 			files = (
 				69A4BEF41B227DCF00265451 /* ViewController.m in Sources */,
 				69A4BEF11B227DCF00265451 /* AppDelegate.m in Sources */,
+				69A4BF131B227E7100265451 /* ImageViewController.m in Sources */,
 				69A4BEEE1B227DCF00265451 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +250,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		69A4BEF51B227DCF00265451 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69A4BEF61B227DCF00265451 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		69A4BEFA1B227DCF00265451 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -418,6 +416,7 @@
 				69A4BF0D1B227DCF00265451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69A4BF0E1B227DCF00265451 /* Build configuration list for PBXNativeTarget "DownLoadingImagesTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +425,7 @@
 				69A4BF101B227DCF00265451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
